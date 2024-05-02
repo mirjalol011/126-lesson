@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    align-items: center;
+    font-family: sans-serif;
+}
+
+.container {
+    .head {
+        .img_card {
+            width: 25px;
+            height: 35px;
+            margin-left: 200px;
+            margin-top: 50px;
+        }
+        .img_carf {
+            color: black;
+            font-family: sans-serif;
+            font-weight: bold;
+        }
+    }
+}
+
+.container {
+    .card {
+        .btn {
+            width: 100px;
+            height: 30px;
+            border-radius: 30px;
+            margin-left: 1200px;
+            transform: translate(1px,-35px);
+            font-size: 15px;
+        }
+        .btn_vt {
+            width: 20px;
+        }
+        .btn:hover {
+            border: 2px solid blue;
+            cursor: pointer;
+        }
+    }
+}
+
+.card_fig {
+    .vert {
+        width: 380px;
+        height: 180px;
+        margin-top: 150px;
+        margin-left: 220px;
+    }
+    .futb {
+        width: 350px;
+        height: 300px;
+        margin-left: 220px;
+        transform: translate(1px,60px);
+    }
+    .tennis {
+        width: 300px;
+        height: 300px;
+        transform: translate(-400px,40px);
+    }
+}
+
+.sun {
+    width: 120px;
+    height: 35px;
+    background-color: black;
+    color: white;
+    margin-left: 220px;
+    margin-top: 100px;
+    border: none;
+    border-radius: 40px;
+    font-size: 10px;
+}
+
+.sun:hover {
+    cursor: pointer;
+    border: 3px solid blue;
+}
+
+.chevar {
+    width: 15px;
+    height: 15px;
+    margin-left: 813px;
+    transform: translate(1px,-15px);
+}
+
+.chevar:hover {
+    cursor: pointer;
+    border: 2px solid blue;
+}
+
+.yozma {
+    p {
+        width: 100px;
+        height: 2px;
+        background-color: rgba(0, 0, 0, 0.664);
+        margin-left: 700px;
+        transform: translate(30px,-15px);
+    }
+}
